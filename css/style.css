@@ -3,3 +3,94 @@
     padding: 0;
     box-sizing:border-box
 }
+
+/* common */
+.box-main{
+    width: 80%;
+    margin:auto; 
+}
+
+.buttons{
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: none;
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear:both;
+}
+
+/* header */
+header{
+    background-color: #3161e0;
+    height: 70px;
+}
+
+.silo-left, .silo-right, nav{
+    float:left;
+    display: inline-block;
+    text-align: center;
+    padding-top: 25px;
+    height: 100%;
+}
+
+.silo-left, .silo-right{
+    width: 15%;   
+}
+
+nav{  
+    width: 70%;  
+    padding-top:30px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 20px; 
+    padding-right: 40px;  
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* main */
+
+/* hero */
+.hero{
+    background-image: url(../img/jumbo.png);
+    height: 450px ;
+    background-size:cover;
+    background-position: center;
+}
+
+.hero .box-main{
+    text-align: center;
+    width: 50%;
+    color: white;
+    font-size: 45px; 
+    padding-top: 100px;
+}
+
+ .hero .box-main p{
+    font-size: initial;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#mac{
+    background-color: white;
+}
+
+#browser{
+    background-color: #23272a;
+    color: white;
+}
+
+
+  
+    
+}
